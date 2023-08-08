@@ -1,0 +1,1337 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+.project-main {
+    position: relative;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    min-height: 48em;
+
+}
+
+.project-bg {
+    position: absolute;
+    height: 60rem;
+    margin-top: 2rem;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, #b3a1e7, #99f5e9);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+
+.search-bar {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+.projectCard-2 {
+    margin: 1em 2em 1em 3em;
+}
+
+
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20%;
+}
+
+
+
+.select-menu {
+    font-family: 'Poppins', sans-serif;
+    /* width: 380px; */
+    /* margin: 140px auto; */
+}
+
+.select-menu .select-btn {
+    display: flex;
+    height: 55px;
+
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 0px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.select-btn:hover {
+    background: #dfdfdf;
+}
+
+.select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+
+.select-menu .options {
+    position: absolute;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(255, 0, 0, 0.1);
+    display: none;
+    min-width: 50px;
+    z-index: 99 !important;
+
+}
+
+.select-menu.active .options {
+    display: block;
+}
+
+.options .option {
+    display: flex;
+    min-height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+
+.options .option:hover {
+    background: #F2F2F2;
+}
+
+.option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.option .option-text {
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+
+/* Analysis css */
+/* Analysis css */
+/* Analysis css */
+/* Analysis css */
+/* Analysis css */
+
+
+.main-home-text {
+    display: flex;
+    justify-content: center;
+    font-size: 4.3rem;
+    /* font-weight: 900; */
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    /* font-family: Georgia,Times,Times New Roman,serif;  */
+
+    margin-top: 3px;
+    margin-bottom: 0.5%;
+
+
+}
+
+.main-home-sub-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5%;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+
+
+}
+
+.on-home-bg {
+    margin-top: -44.4%;
+    /* margin-bottom: 2%; */
+
+}
+
+
+
+/* Graph section  - Inner components*/
+/* Graph section  - Inner components*/
+/* Graph section  - Inner components*/
+/* Graph section  - Inner components*/
+/* Graph section  - Inner components*/
+/* Graph section  - Inner components*/
+
+
+
+.no-graph {
+
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 2rem; */
+    margin-bottom: -5rem;
+}
+
+.graph-section {
+    padding-top: 4.6%;
+
+}
+
+
+.plotlyi {
+    display: flex;
+    justify-content: center;
+}
+
+.modebar-container {
+    right: -8% !important;
+    top: 20% !important
+}
+
+
+.secoundary-head {
+    display: flex;
+    font-size: 5rem;
+    color: #00d744;
+    /* justify-content: center; */
+}
+
+.resonsive-plot {
+    margin-right: 10rem !important;
+    height: 350;
+
+
+}
+
+/* Extended */
+
+/* HomePage css && Some css Changing Stles of Graph comonennt (Inbuilt styles!!!!)*/
+/* HomePage css && Some css Changing Stles of Graph comonennt (Inbuilt styles!!!!)*/
+/* HomePage css && Some css Changing Stles of Graph comonennt (Inbuilt styles!!!!)*/
+/* HomePage css && Some css Changing Stles of Graph comonennt (Inbuilt styles!!!!)*/
+/* HomePage css && Some css Changing Stles of Graph comonennt (Inbuilt styles!!!!)*/
+
+.white-area {
+    background-color: #F2F2F2;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 14rem;
+    padding-right: 17rem;
+
+}
+
+.gtitle {
+    font-size: 2.2rem !important;
+    overflow-wrap: break-word !important;
+
+}
+
+.col-home-l {
+    display: flex !important;
+    justify-content: center !important;
+    padding-right: 0% !important;
+}
+
+.col-home-r {
+    display: flex !important;
+    justify-content: center !important;
+    padding-left: 0% !important;
+}
+
+.col-inside {
+    margin-left: 1.7% !important;
+    font-size: 1.4rem !important;
+}
+
+
+.col-inside {
+    /* font-size: 2rem !important; */
+    padding: 6px 37px !important;
+}
+
+.cPsKcu {
+    padding: 6px 40px !important;
+}
+
+.col-home-l {
+    font-size: 1.6rem;
+}
+
+.col-home-r {
+    font-size: 1.6rem;
+}
+
+.Center {
+    font-size: 2.5rem;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.tax-data {
+    font-size: 4.5rem;
+}
+
+/* team-upload section combined */
+/* team-upload section combined */
+/* team-upload section combined */
+/* team-upload section combined */
+/* team-upload section combined */
+
+
+.team-upload {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 3rem; */
+
+
+}
+
+.team-upload hr {
+    height: 38rem;
+    background-color: black;
+    border-radius: 4rem;
+    width: 0.4rem;
+}
+
+
+/* Team page CSS*/
+/* Team page CSS*/
+/* Team page CSS*/
+/* Team page CSS*/
+/* Team page CSS*/
+
+.team {
+    padding: 12rem 10rem 12rem 11rem;
+
+}
+
+
+.team a {
+    display: flex;
+    justify-content: center;
+}
+
+.main-text-team {
+    color: #8c3009 !important;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+
+}
+
+.btn-team {
+    color: #52104f !important;
+    font-style: italic;
+    font-weight: 500;
+    background-color: #c1d0db;
+    border-radius: 3rem;
+    cursor: pointer;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn-team:hover {
+    font-style: italic;
+    font-weight: 500;
+    background-color: #86bedb;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+
+.main-home-sub-text_about-US {
+    font-size: 1.6rem;
+}
+
+
+.white-bg {
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: white;
+}
+
+
+
+/* card on team page */
+/* card on team page */
+/* card on team page */
+/* card on team page */
+/* card on team page */
+/* card on team page */
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5rem 2rem 5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Adjust box shadow as needed */
+
+}
+
+.card-text-new {
+    display: grid;
+    justify-content: center;
+}
+
+.image-container {
+    display: grid;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    /* margin-bottom: 20px; */
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+
+/* File Upload  */
+/* File Upload  */
+/* File Upload  */
+/* File Upload  */
+/* File Upload  */
+
+
+
+.containerz {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    margin-top: 13rem;
+    margin-bottom: 5rem;
+
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+.drop-area {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 2.5rem;
+    background-color: #4d615a5e;
+}
+
+
+
+.drop-area img {
+    display: block;
+    width: 42px;
+    margin: 1rem auto;
+    pointer-events: none;
+}
+
+.drop-area p {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.upload-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+.hidden-file-input {
+    display: none;
+    /* cursor: pointer; */
+
+}
+
+.file-input-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.custom-file-label {
+    cursor: pointer;
+}
+
+
+.file-input-image:hover {
+    border-color: #888;
+    cursor: pointer;
+
+}
+
+
+
+.select-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.slider-card-title {
+    font-size: 2.3rem;
+}
+
+
+.boxi {
+    justify-content: center;
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    background: red;
+    /* margin-left: 50%; */
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Year Slider  */
+/* Year Slider  */
+/* Year Slider  */
+/* Year Slider  */
+/* Year Slider  */
+
+.slider-select {
+    margin-top: 2.2%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.slider-label {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.MuiSlider-sizeMedium {
+    color: #52104f !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+    color: black !important;
+    /* background-color: #00d744 !important; */
+    background-image: url("../../assets/logo/YOGLABS-logo.png") !important;
+
+
+}
+
+.MuiSlider-rail {
+    opacity: 1 !important;
+}
+
+.year-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slider-label {
+    padding-top: 3%;
+    margin-bottom: -2%;
+    display: flex;
+    justify-content: center;
+}
+
+.MuiPaper-root {
+    background-image: linear-gradient(45deg, #947add, #e85555);
+
+}
+
+.col-home-l {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 9%;
+}
+
+.col-home-r {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8%;
+    /* align-items: center;
+    flex-direction: column; */
+}
+
+.svg-login-icon {
+    font-size: 2rem;
+    width: 3rem;
+    /* padding-right: 1rem; */
+}
+
+.svg-login-icon-img {
+    font-size: 2rem;
+    width: 5rem;
+    /* padding-right: 1rem; */
+}
+
+.svg-login-icon-onhomepage {
+    font-size: 5rem;
+    width: 25rem;
+    /* padding-right: 1rem; */
+}
+
+.svg-login-icon-onhomepage-above-footer {
+    font-size: 5rem;
+    margin-top: 5rem;
+
+    width: 25rem;
+    /* padding-right: 1rem; */
+    /* add border with design */
+    /* 3d  */
+
+}
+
+
+.svg-login-icon-onhomepage-above-footer:hover {
+    background:
+        linear-gradient(to right, black 4px, transparent 4px) 0 0,
+        linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+        linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    /* transition: background-position 0.5s ease-in; */
+
+
+
+}
+
+
+.login-name {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    /* margin-top: 5px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background: floralwhite;
+}
+
+
+/* Cards on team page! */
+/* Cards on team page! */
+/* Cards on team page! */
+/* Cards on team page! */
+/* Cards on team page! */
+
+.cards-on-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.cards-middle {
+    margin: 3%;
+}
+
+.cards__list {
+    display: flex;
+    padding-top: 15px;
+}
+
+.cards__list li {
+    padding-right: 5px;
+}
+
+
+.text-xl {
+    font-size: 2rem;
+    line-height: 1.75rem;
+    margin-top: 2rem;
+}
+
+.tracking-wide {
+    letter-spacing: 0.025em;
+    font-size: 1.7rem;
+    padding-top: 3%;
+}
+
+
+/* Float Login Button */
+/* Float Login Button */
+/* Float Login Button */
+/* Float Login Button */
+
+.loginFloat {
+    position: fixed;
+    top: 6rem;
+    /* bottom: 0; */
+    right: 2rem;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    z-index: 1000;
+    display: flex;
+
+
+}
+
+.AnalysisShortcutFloat {
+    position: fixed;
+    bottom: 2rem;
+    background-color: #fafafa00;
+    /* bottom: 0; */
+    right: 1rem;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    z-index: 1000;
+    display: flex;
+    padding: 2rem;
+    border-radius: 8rem 15rem 1rem 15rem;
+
+}
+
+
+.analysiis-btn-down-tp{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 6rem 19rem 0rem 14rem !important;
+
+}
+
+.analysisShortcut img{
+    width: 5rem;
+    cursor: pointer;
+}
+
+.menu-area-shortcut-analysis{
+    top: 3rem !important;
+}
+.up-option-show-up{
+    bottom: 10rem !important;
+
+}
+
+
+
+.bg-dialog-login {
+    background-color: #99f5e9;
+}
+
+
+
+/* coloring ras rasyog */
+.color-ras-color-it {
+    color: #52104f;
+    font-size: 2.3rem;
+}
+
+
+
+
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+/* Media queries - responsivenes!! */
+
+
+
+@media (max-width: 28000px) {
+    .on-home-bg {
+
+        margin-top: -58rem;
+        margin-bottom: 2%;
+
+    }
+
+    .bg {
+        /* min-height: 450px; */
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .on-home-bg {
+
+        margin-top: -58rem;
+        margin-bottom: 2%;
+
+    }
+}
+
+
+@media (max-width: 1141px) {
+
+    .team {
+        padding: 10rem 3rem 1rem 3rem;
+
+    }
+
+    .team-upload hr {
+        height: 33rem;
+        background-color: black;
+        border-radius: 4rem;
+        width: 0.4rem;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .card__collection {
+
+        display: grid !important;
+        justify-content: center;
+    }
+
+    .on-home-bg {
+
+        margin-top: -68%;
+        margin-bottom: 2%;
+
+    }
+
+}
+
+@media (max-width: 1072px) {
+    .bg {
+        /* min-height: 700px; */
+    }
+
+    .col-home-l {
+        display: flex !important;
+        justify-content: center !important;
+        padding-right: 0% !important;
+        /* align-items: center;
+        flex-direction: column; */
+    }
+
+    .col-home-r {
+        display: flex !important;
+        justify-content: center !important;
+        padding-left: 0% !important;
+        /* align-items: center;
+        flex-direction: column; */
+    }
+
+    .col-inside {
+        margin-left: 1% !important;
+        font-size: 1.3rem !important;
+    }
+
+    .card {
+        /* flex-direction: row; */
+        justify-content: space-between;
+        max-width: 600px;
+    }
+
+    .image-container {
+        width: 13rem;
+        height: 13rem;
+        margin-right: 20px;
+    }
+
+
+
+    .team-upload hr {
+        height: 30rem;
+        background-color: black;
+        border-radius: 4rem;
+        width: 0.4rem;
+    }
+
+    .team {
+        padding: 10rem 1rem 2rem 1rem;
+
+    }
+
+    .main-text-team {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 813px) {
+    .image-container {
+        width: 8rem;
+        height: 8rem;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        /* flex-direction: row; */
+        justify-content: space-between;
+        max-width: 600px;
+    }
+
+    .image-container {
+        width: 10rem;
+        height: 10rem;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 756px) {
+    .on-home-bg {
+
+        margin-top: -63rem;
+        margin-bottom: 2%;
+
+    }
+
+    .card {
+        justify-content: space-between;
+        max-width: 600px;
+    }
+
+    .image-container {
+        width: 8rem;
+        height: 8rem;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 730px) {
+    .gtitle {
+        font-size: 1.4rem !important;
+    }
+
+    .main-text-team {
+
+        font-size: 1.6rem;
+        font-weight: 500;
+
+
+    }
+
+    .text-xl {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+
+    .tracking-wide {
+        letter-spacing: 0.025em;
+        font-size: 1rem;
+        padding-top: 3%;
+    }
+
+
+}
+
+@media (max-width: 678px) {
+
+    .image-container {
+        width: 5rem;
+        height: 5rem;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .containerz {
+        display: flex;
+        flex-direction: column;
+        margin-top: -64rem;
+    }
+}
+
+
+@media (max-width: 653px) {
+    .no-graph {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .main-text-team {
+
+        font-size: 1.5rem;
+        font-weight: 500;
+
+
+    }
+
+    .main-home-text {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .on-home-bg {
+
+        margin-top: -84%;
+        margin-bottom: 9%;
+
+    }
+
+    .bg {
+        /* min-height: 600px; */
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    .on-home-bg {
+
+        margin-top: -46rem;
+        margin-bottom: 2%;
+
+    }
+
+    .col-home-l {
+        font-size: 1.5rem;
+    }
+
+    .col-home-r {
+        font-size: 1.5rem;
+    }
+
+    .Center {
+        font-size: 2rem;
+    }
+
+    .tax-data {
+        font-size: 2.5rem;
+    }
+
+
+    .no-graph {
+        font-size: 2rem;
+        text-align: center;
+        /* justify-content: center; */
+    }
+
+    .on-home-bg {
+
+        margin-top: -135%;
+        margin-bottom: 9%;
+
+    }
+
+    .bg {
+        /* min-height: 800px; */
+    }
+
+    .col-inside {
+        /* margin-left: 1% !important; */
+        font-size: 0.9rem !important;
+        padding: 3px 24px !important;
+    }
+
+
+
+    .cPsKcu {
+        padding: 3px 19px !important;
+    }
+
+
+    .team {
+        padding: 8rem 0rem 21rem 0rem;
+
+    }
+
+    .main-text-team {
+        font-size: 1.2rem;
+    }
+
+
+    .team-upload hr {
+        height: 23rem;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 543px) {
+    .cards-on-team {
+
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* max-width: 400px; */
+    }
+
+    .image-container {
+        width: 16rem;
+        height: 16rem;
+        margin-right: 20px;
+    }
+
+    .text-xl {
+        font-size: 2rem;
+        line-height: 1.75rem;
+    }
+
+    .tracking-wide {
+        letter-spacing: 0.025em;
+        font-size: 1.6rem;
+        padding-top: 3%;
+    }
+
+}
+
+.fab svg {
+    font-size: 2rem;
+    color: black;
+}
+
+.heading-footer {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 513px) {
+
+    .heading-footer {
+        font-size: 1.5rem;
+    }
+
+    .footer-heading-sub-txt {
+        font-size: 1.3rem;
+    }
+
+    .footer-links-f1 {
+
+        font-size: 1rem;
+    }
+
+    .main-text-team {
+
+        font-size: 2rem;
+        font-weight: 500;
+
+
+    }
+
+    .team-upload {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    .team-upload hr {
+        display: none;
+    }
+
+    .team {
+        padding: 4rem 0rem 8rem 0rem;
+
+    }
+}
+
+@media (max-width: 485px) {
+    .col-inside {
+        padding: 3px 19px !important;
+    }
+
+    .cPsKcu {
+        padding: 3px 19px !important;
+    }
+
+    .main-home-sub-text {
+        font-size: 1.5rem;
+
+    }
+}
+
+@media (max-width: 450px) {
+
+    .on-home-bg {
+
+        margin-top: -169%;
+        margin-bottom: 12%;
+
+    }
+
+    .gtitle {
+        font-size: 1rem !important;
+    }
+
+    .svg-container {
+        height: 160px !important;
+        /* width: 201px !important; */
+        margin-top: 100px !important;
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width: 400px) {
+
+
+
+
+    .on-home-bg {
+
+        margin-top: -180%;
+        /* margin-bottom: 20%; */
+
+    }
+
+}
+
+@media (max-width: 420px) {
+    .white-area {
+        background-color: #F2F2F2;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .main-text-team {
+
+        font-size: 1.66rem;
+        font-weight: 200;
+
+
+    }
+
+    .on-home-bg {
+
+        margin-top: -195%;
+        /* margin-bottom: 20%; */
+
+    }
+
+
+}
+
+@media (max-width: 332px) {
+    .image-container {
+        width: 10rem;
+        height: 10rem;
+        margin-right: 20px;
+    }
+
+
+    .on-home-bg {
+
+        margin-top: -225%;
+        margin-bottom: 20%;
+
+    }
+
+    .main-text-team {
+
+        font-size: 1.4rem;
+        font-weight: 200;
+
+
+    }
+
+}
+
+@media (max-width: 288px) {
+
+    .on-home-bg {
+
+        margin-top: -265%;
+        margin-bottom: 20%;
+
+    }
+
+    .col-inside {
+        padding: 2px 10px !important;
+    }
+
+    .cPsKcu {
+        padding: 2px 10px !important;
+    }
+
+    .main-text-team {
+
+        font-size: 1.1rem;
+        font-weight: 200;
+
+
+    }
+}
+
+

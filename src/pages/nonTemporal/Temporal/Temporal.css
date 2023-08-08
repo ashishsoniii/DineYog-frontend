@@ -1,0 +1,55 @@
+.temporal-bg {
+    min-height: 53rem;
+    /* -webkit-transform: skewY(5deg); */
+    /* -moz-transform: skewY(5deg); */
+    /* -ms-transform: skewY(5deg); */
+   /* -o-transform: skewY(5deg); */
+    /* transform: skewY(5deg); */
+   
+    background-image: linear-gradient(45deg, #b9b4c9, #a54fd7);
+}
+
+
+.temporal-btn {
+    padding-top: 4%;
+    margin-bottom: 8%;
+    padding-bottom: 1rem;
+
+}
+
+.tempo_graph {
+    margin-top: 0rem;
+}
+
+.graph_Temporal-t-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9rem;
+    margin-top: 8rem;
+
+}
+
+
+
+@media (max-width: 1071px) {
+    .temporal-btn {
+        padding-top: 30%;
+    }
+}
+@media (max-width: 701px) {
+    .temporal-btn {
+        padding-top: 40%;
+    }
+}
+@media (max-width: 503px) {
+    .temporal-btn {
+        padding-top: 50%;
+    }
+}
+@media (max-width: 390px) {
+    .temporal-btn {
+        padding-top: 70%;
+        padding-bottom: 8rem;
+    }
+
+}

@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+
+/* font-family: 'Poppins', sans-serif; */
+
+
+.newHome{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    height: 90vh;
+    background: #09183f;
+    /* background-image: linear-gradient(150deg, #0f003b, #f6fffe); */
+    background-image: linear-gradient(150deg, #0f1b39, #1a2d55);
+
+}
+
+.newHome__container{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.main-text-new-home{
+    margin-left: 18rem;
+    font-size: 10rem;
+    font-family: 'Playball', cursive;
+    color: #ffffff;
+    margin-top: 13%;
+}
+
+
+.main-text-sub-text{
+    margin-left: 18rem;
+
+    font-size: 3rem;
+    /* width: 40%; */
+    font-family: 'Fresca', sans-serif;
+    color: #e7edff;
+}
+
+.newHome__row{
+    max-width: 80%;
+    gap: 2.3rem;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+.img-home-pe{
+
+    margin-right: 10rem;
+}
+.img-home-pe img{
+
+    width: 55rem;
+}
