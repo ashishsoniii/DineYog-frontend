@@ -153,17 +153,16 @@ const Home = (props) => {
         <section className="team">
           <div className="main-text-team">Partnerships</div>
           <a href="http://www.jaipurmodern.com/" target="__blank">
-
-          <motion.img
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 1 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            src={jaipurM}
-            className="svg-login-icon-onhomepage-above-footer"
-            alt=""
-          />
+            <motion.img
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
+              whileTap={{ scale: 0.9 }}
+              src={jaipurM}
+              className="svg-login-icon-onhomepage-above-footer"
+              alt=""
+            />
           </a>
         </section>
       </div>

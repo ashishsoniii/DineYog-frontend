@@ -75,11 +75,11 @@ const Navbar2 = (props) => {
             <li>
               <NavLink
                 className="nav-link nav-link-ltr"
-                to="/#analysis"
+                to="#foodAnalysis"
                 activeclassname="active"
                 onClick={handleNavLinkClick}
               >
-                Fashion Analytics
+                Analytics
               </NavLink>
             </li>
             <li>

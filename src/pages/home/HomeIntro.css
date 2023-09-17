@@ -10,6 +10,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .badge {
@@ -156,5 +158,56 @@
 .btn-text:hover {
     background-color: rgb(73, 73, 73);
 
+
+}
+
+
+
+
+
+@media (max-width: 663px) {
+
+
+/* 663 */
+
+.home-sub-small-textt {
+    
+    width: 90%;
+   
+}
+
+}
+@media (max-width: 549px) {
+
+
+/* 663 */
+
+.card1-text1 {
+
+    font-size: 1.5rem;
+}
+.card1-text2 {
+    font-size: 1rem;
+   
+}
+.btn-text {
+    font-size: 1.1rem;
+
+}}
+
+
+
+@media (max-width: 437px) {
+
+
+    .cardssss {
+        display: contents;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 100%;
+    }
 
 }

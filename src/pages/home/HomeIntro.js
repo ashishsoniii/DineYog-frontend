@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
+    <div id="foodAnalysis" className="foodAnalysis">
+
     <div className="home-intro">
       {/* badge */}
       <div className="badge">
@@ -61,9 +63,9 @@ function Home() {
         </div>
       </div>
 
-      <br />
+      {/* <br /> */}
 
-      {/* card line2222222222222222222 */}
+      {/* card line2222222222222222222 */}  
       {/* card line2222222222222222222 */}
       {/* card line2222222222222222222 */}
       {/* card line2222222222222222222 */}
@@ -134,6 +136,7 @@ function Home() {
       </div>
 
       {/* edcm */}
+    </div>
     </div>
   );
 }

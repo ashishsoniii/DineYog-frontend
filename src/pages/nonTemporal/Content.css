@@ -372,9 +372,9 @@
 
     }
 
-    .bg {
+    /* .bg {
         min-height: 57rem;
-    }
+    } */
 
 
 
@@ -415,9 +415,9 @@
         /* justify-content: center; */
     }
 
-    .bg {
+    /* .bg {
         min-height: 70rem;
-    }
+    } */
 
     .gtitle {
         font-size: 1.2rem !important;
@@ -435,18 +435,16 @@
 
     }
 
-    .bg {
-        min-height: 80rem;
-    }
+  
 
 
 }
 
 @media (max-width: 331px) {
 
-    .bg {
+    /* .bg {
         min-height: 77rem;
-    }
+    } */
 }
 
 .select-container {

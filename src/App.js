@@ -49,13 +49,12 @@ const App = () => {
           loggedIn={loggedIn}
           setLoggedIn={setLoggedIn}
         />
-
       </div>
-      {loggedIn &&
-      <div className="AnalysisShortcutFloat">
-        <AnalysisShortcut/>
-      </div>
-      }
+      {loggedIn && (
+        <div className="AnalysisShortcutFloat">
+          <AnalysisShortcut />
+        </div>
+      )}
       <div className="bg">
         {loggedIn ? (
           <Navbar
@@ -93,14 +92,18 @@ const App = () => {
         <Route
           exact
           path="/login"
-          element={<Login  open={open}
-          setOpen={setOpen}
-          email={email}
-          setEmail={setEmail}
-          password={password}
-          setPassword={setPassword}
-          loggedIn={loggedIn}
-          setLoggedIn={setLoggedIn} />}
+          element={
+            <Login
+              open={open}
+              setOpen={setOpen}
+              email={email}
+              setEmail={setEmail}
+              password={password}
+              setPassword={setPassword}
+              loggedIn={loggedIn}
+              setLoggedIn={setLoggedIn}
+            />
+          }
         />
         <Route
           exact
@@ -112,9 +115,7 @@ const App = () => {
         <Route
           exact
           path="/forcast"
-          element={
-            <Forecasting topic={topic} activeTopic={activeTopic} />
-          }
+          element={<Forecasting topic={topic} activeTopic={activeTopic} />}
         />
         <Route
           exact

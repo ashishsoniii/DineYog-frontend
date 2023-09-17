@@ -390,22 +390,15 @@
 }
 
 @media (max-width: 1071px) {
-    .on-home-bg {
+    /* .on-home-bg {
 
         margin-top: -0.4%;
         margin-bottom: 2%;
 
-    }
+    } */
 }
 
-@media (max-width: 876px) {
-    .on-home-bg {
 
-        /* margin-top: -0.4rem; */
-        margin-bottom: 2%;
-
-    }
-}
 
 /*  */
 @media (max-width: 845px) {
